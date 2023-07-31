@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+  /* background-color: rgb(17, 17, 17); */
+  background-color: black;
+  color: white;
+  font-family: "poppins";
+}
+.nav {
+  background: #00040f;
+}
+
+.links {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  color: #5ce1e6;
+}
+.borders {
+  border: 2px solid #5ce1e6;
+}
+.discount {
+  font-weight: 200;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.discount-bg {
+  background: linear-gradient(135deg, #272727 0%, #11101d 100%);
+}
+
+.ground {
+  background: radial-gradient(
+    64.33% 64.33% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(375px);
+  border-radius: 9999999;
+  border: 1px solid red;
+}
+
+.overlay2 {
+  width: 100px;
+  height: 100px;
+  height: 100px;
+  fill: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  stroke-width: 1px;
+  stroke: #000;
+  filter: blur(61.5px);
+}
+
+.started {
+  background: linear-gradient(
+    180deg,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 324px;
+  background: #fff;
+  filter: blur(225px);
+}
+.blurs {
+  width: 200px;
+  height: 450px;
+  border-radius: 20px;
+  background: #fff;
+  filter: blur(150px);
+}
+.blurs1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background: #fff;
+  filter: blur(180px);
+}
+.start {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sheild {
+  border-radius: 20px;
+  background: linear-gradient(154deg, rgba(255, 255, 255, 0) 0%, #14101d 100%);
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.trans {
+  border-radius: 9.121px;
+  background: linear-gradient(122deg, #4b3d6e 0%, #14101d 98.96%);
+  /* box-shadow: -0.24321705102920532px -0.24321705102920532px 0.364825576543808px 0px
+    rgba(0, 0, 0, 0.36) inset; */
+  backdrop-filter: blur(15.201066017150879px);
+}
+.transchange {
+  background: linear-gradient(
+    180deg,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.transbutton {
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+}
+.paypal {
+  border-radius: 10px;
+  background: linear-gradient(120deg, #382d52 0%, #14101d 100%);
+  box-shadow: 4px 6px 30px 0px rgba(19, 36, 46, 0.25);
+}
+
+.testo {
+  border-radius: 20px;
+  background: linear-gradient(
+    154deg,
+    #6d6d6d16.15%,
+    #11101d 57.81%,
+    #11101d 93.23%
+  );
+  backdrop-filter: blur(5px);
+}
+
+.testOverlay {
+  border-radius: 200px;
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%);
+  filter: blur(165px);
+}
+
+.service {
+  border-radius: 20px;
+  background: linear-gradient(
+    154deg,
+    #11101d 16.15%,
+    #6d6d6d 57.81%,
+    #11101d 93.23%
+  );
+  backdrop-filter: blur(5px);
+}
+
+.footer {
+  background: rgba(11, 10, 12, 0.6);
+}
+.line {
+  background: #3f3e45;
+}
